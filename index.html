@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saylani Walfare Int Trust</title>
 </head>
+
 <body>
     <center>
         <img src="./img/saylani logo.png" alt="Saylani Logo" width="250">
@@ -16,16 +18,18 @@
                     <img src="./img/instagram.logo.png" alt="instagram logo" width="30"> &nbsp;&nbsp;&nbsp;
                     <img src="./img/youtube.logo.png" alt="youtube logo" width="30">
                 </td>
-                <td align="center" width="700"><h1>Course Registration Form</h1></td>
+                <td align="center" width="700">
+                    <h1>Course Registration Form</h1>
+                </td>
                 <td align="right" width="150"><button>Student Portal</button></td>
             </tr>
         </table>
         <p>Services - Education - Registration</p>
-        <table cellpadding="10">
+        <table>
             <tr>
-                <td><a href="#">New Application</a></td>
-                <td><a href="#">Download ID Card</a></td>
-                <td><a href="#">Results</a></td>
+                <td><input type="submit" name="" id="" value="New Application"></td>
+                <td><input type="submit" name="" id="" value="Download ID Card"></td>
+                <td><input type="submit" name="" id="" value="Results"></td>
             </tr>
         </table>
     </center>
@@ -36,25 +40,123 @@
                 <tr>
                     <td>
                         <p>Select city</p>
-                        <select name="city" id="city">
-                            <option value="select city">Select city </option>
+                        <select name="city" id="city" style="width: 500px; height: 45px;">
+                            <option value="Select city">Select city </option>
                             <option value="karachi">Karachi</option>
                             <option value="faislabad">Faislabad</option>
                             <option value="peshawar">Peshawar</option>
                         </select>
                     </td>
                     <td>
-                        <p>Select city</p>
-                        <select name="city" id="city">
-                            <option value="select city">Select city </option>
-                            <option value="karachi">Karachi</option>
-                            <option value="faislabad">Faislabad</option>
-                            <option value="peshawar">Peshawar</option>
+                        <p>Select course</p>
+                        <select name="city" id="city" style="width: 500px; height: 45px;">
+                            <option value="Select course" selected>Select course </option>
                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Full name</p>
+                        <input type="text" name="full name" id="" size="66" style="height: 40px;"
+                            placeholder="Full name">
+                    </td>
+                    <td>
+                        <p>Father name</p>
+                        <input type="text" name="father name" id="" size="66" style="height: 40px;"
+                            placeholder="Father name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Email</p>
+                        <input type="email" name="email" id="" size="66" style="height: 40px;" placeholder="Email">
+                    </td>
+                    <td>
+                        <p>Phone</p>
+                        <input type="tel" name="phone number" id="" size="66" style="height: 40px;" placeholder="Phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>CNIC</p>
+                        <input type="text" name="cinic number" id="" size="66" style="height: 40px;" placeholder="CNIC">
+                    </td>
+                    <td>
+                        <p>Father's CNIC (optional)</p>
+                        <input type="text" name="Father's CNIC (optional)" id="" size="66" style="height: 40px;"
+                            placeholder="Father name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Date of birth</p>
+                        <input type="date" name="date" id="" style="width: 495px; height: 40px;" placeholder="">
+                    </td>
+                    <td>
+                        <p>Select gender</p>
+                        <select name="gender" id="" style="width: 500px; height: 45px;">
+                            <option value="" selected>Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="Select course">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Address</p>
+                        <input type="text" name="address" id="" size="139" style="height: 40px;" placeholder="Address">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Last qualification</p>
+                        <select name="qualification" id="" style="width: 1010px; height: 45px;">
+                            <option value="" selected>Last qualification</option>
+                            <option value="Grade 5-8">Grade 5-8</option>
+                            <option value="Matric">Matric</option>
+                            <option value="Matric">Intermediate</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Do you have a Laptop?</p>
+                        <select name="hava a laptop" id="" style="width: 1010px; height: 45px;">
+                            <option value="" selected>Do you have a Laptop?</option>
+                            <option value="yes">YES</option>
+                            <option value="no">NO</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Picture</p>
+                        <input type="file" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <ol>
+                            <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct
+                                to the best of my knowledge. Further, I will abide by all the established and future
+                                regulations and policies of SWIT</li>
+                            <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be
+                                involved in any other activity, political or ethical, but learning during my stay in the
+                                program.</li>
+                            <li>Defiance will render my admission canceled at any point in time.</li>
+                            <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                            <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="submit" id="" value="SUBMIT" style="width: 1010px; height: 35px;">
                     </td>
                 </tr>
             </table>
         </form>
     </center>
 </body>
+
 </html>
